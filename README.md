@@ -2,7 +2,7 @@
 
 ![Language](Images/language.jpg)
 
-In this challenge, you get to play the role of chief linguist at a local learning academy. As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
+You get to play the role of chief linguist at a local learning academy. As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
 
 Your task is to create a Python script to automate the analysis of any such passage using these metrics. Your script will need to do the following:
 
@@ -31,11 +31,4 @@ Approximate Word Count: 122
 Approximate Sentence Count: 5
 Average Letter Count: 4.6
 Average Sentence Length: 24.0
-```
-
-* **Special Hint:** You may find this code snippet helpful when determining sentence length (look into [regular expressions](https://en.wikipedia.org/wiki/Regular_expression) if interested in learning more):
-
-```python
-import re
-re.split("(?<=[.!?]) +", paragraph)
 ```
